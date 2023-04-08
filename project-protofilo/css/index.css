@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sansita&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,400&family=Sansita&display=swap');
+
+
+@media screen and (max-width:700px)
+{
+ .profile
+}
+body{
+  background-color:rgb(242,240,238);
+  align-content: center;
+  justify-content: center;
+}
+.content1{
+  width: 80%;
+  height: 50%;
+  background-color: white;
+  margin: 5% 10% 5% 10%;
+  box-shadow: 0 25px 50px -12px rgba(0,0,0,.25);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  padding-bottom: 4rem;
+}
+.content2{
+  width: 80%;
+  height: 100%;
+  background-color:rgb(242,240,238);
+  margin: 5% 10% 5% 10%;
+  box-shadow: 0 25px 50px -12px rgba(0,0,0,.25);
+  border-radius: 15px;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  font-family:'Sansita', sans-serif;
+}
+
+.logo{
+  width: 20%;
+}
+.logo img{
+width: 60%;
+}
+
+nav a{
+  text-decoration: none;
+  color: black;
+}
+nav ul a:hover{
+  background-color: #d4c3c3;
+  font-size: 1.7rem;
+  cursor:grab ;
+}
+nav ul li {
+list-style: none;
+display: inline-block;
+margin: 0 5rem;
+font-size: 1.5rem;
+font-weight: 800;
+}
+.profile{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr ;
+  gap: 2rem;
+}
+.image{
+  grid-column:1/2 ;
+  grid-row: 1/2;
+  padding: 2% 20%;
+}
+.line{
+  display: inline;
+}
+.hello-text{
+  display: flex;
+  justify-content: start;
+  grid-column:2/3 ;
+  grid-row: 1/2;
+}
+
+.line{
+  background-color: #971A3C;
+  padding-top: 1rem;
+  width: 0.5rem;
+  height: 18rem;
+  margin-top: 3rem;
+  /* margin: 2rem ; */
+}
+.line2{
+  background-color: #971A3C;
+  padding-top: 1rem;
+  width: 1rem;
+  height: 35rem;
+  margin-top: 3rem;
+  /* margin: 2rem ; */
+}
+.txt-one p{
+  color: #971A3C;
+  font-size: 3rem;
+  font-family: 'Sansita', sans-serif;
+}
+.name{
+  font-size: 3rem;
+  display: inline;
+}
+.txt{
+  font-size: 1.5rem;
+  display: inline;
+  padding: 0 10% 0 2%;
+  font-family:'Open Sans', sans-serif;
+  line-height: 2.5rem;
+  margin-right: 4.5rem;
+
+}
+
+.txt p .about{
+  background-color: #971A3C;
+
+}
+.line-icon{
+  height:8rem ;
+  width:1px;
+  border: .5rem solid black;
+  background-color: black;
+}
+ul{
+  list-style: none;
+}
+.social-media li a{
+  font-size: 64px;
+  color: black;
+  text-decoration: none;
+}
+.social-media{
+  font-size:xx-large;
+  position:absolute;
+  bottom: 0;
+  left: 0;
+}
+.line-icon{
+  position:relative;
+  left: 1.5rem;
+}
+.social-media a:hover{
+  font-size: 5rem;
+  cursor:grab ;
+}
+
+
+
