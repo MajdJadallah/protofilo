@@ -1,0 +1,203 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sansita&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,400&family=Sansita&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300;1,400&family=Open+Sans&family=Sansita&display=swap');
+
+
+body{
+  background-color:rgb(242,240,238);
+  align-content: center;
+  justify-content: center;
+}
+.content{
+  width: 80%;
+  height: 85vh;
+  background-color: white;
+  margin: 5% 10% 5% 10%;
+  box-shadow: 0 25px 50px -12px rgba(0,0,0,.25);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  padding-bottom: 5%;
+
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  font-family:'Sansita', sans-serif;
+}
+
+.logo{
+  width: 20%;
+}
+.logo img{
+width: 60%;
+}
+
+nav a{
+  text-decoration: none;
+  color: black;
+}
+nav ul a:hover{
+  background-color: #d4c3c3;
+  font-size: 1.7rem;
+  cursor:grab ;
+}
+nav ul li {
+list-style: none;
+display: inline-block;
+margin: 0 5rem;
+font-size: 1.5rem;
+font-weight: 800;
+}
+.container{
+    display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+height: 70vh;
+justify-content: center;
+gap: 2rem;
+font-family: 'Sansita', sans-serif;
+font-size: 1.3rem;
+}
+h2{
+    text-align: center;
+}
+.right{
+    box-shadow: 0 25px 50px -12px rgba(0,0,0,.25);
+    width:2fr ;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    box-shadow: 0 25px 50px -12px rgba(0,0,0,.25);
+    width: 60%;
+    margin-left: 8rem;
+    padding-bottom: 4rem;
+    padding-right: 2rem;
+}
+.lines1{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.lines1 img{
+    width: 6rem;
+    margin-top: 4.8rem;
+    margin-right: 47.5rem;
+}
+
+    .l1{
+        height:4rem ;
+        width:1px;
+        border: .3rem solid black;
+        background-color: black;
+        position: absolute;
+        left: 50%;
+        bottom : 67%;
+    }
+      .l2{
+        height:12rem ;
+        width:1px;
+        border: .3rem solid black;
+        background-color: black;
+        position: absolute;
+        left: 50%;
+        bottom: 37.5%;
+    }
+    .l3{
+        height:13rem ;
+        width:1px;
+        border: .3rem solid black;
+        background-color: black;
+        position: absolute;
+        left: 50%;
+    }
+    .lines2 img{
+        width: 8rem;
+        margin-left: 99%;    }
+.lines2{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 70%;
+    margin-left: 15rem;
+}
+.left{
+    box-shadow: 0 25px 50px -12px rgba(0,0,0,.25);
+    grid-column: 2/3;
+    grid-row: 2/3;
+    box-shadow: 0 25px 50px -12px rgba(0,0,0,.25);
+    width: 60%;
+    height:95%;
+    margin-left: 8rem;
+    margin-bottom: 4rem;
+    padding-right: 2rem;
+}
+.airbnb ul{
+    list-style:circle;
+}
+.laliga ul{
+    list-style:circle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.line-icon{
+  height:8rem ;
+  width:1px;
+  border: .5rem solid black;
+  background-color: black;
+}
+ul{
+  list-style: none;
+}
+.social-media li a{
+  font-size: 64px;
+  color: black;
+  text-decoration: none;
+}
+.social-media{
+  font-size:xx-large;
+  position:absolute;
+  bottom: 0;
+  left: 0;
+}
+.line-icon{
+  position:relative;
+  left: 1.5rem;
+}
+.social-media a:hover{
+  font-size: 5rem;
+  cursor:grab ;
+}
+
+
+
